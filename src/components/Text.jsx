@@ -1,5 +1,3 @@
-function Text (props) {
-    return <p className="card-text">{props.children}</p>
-}
+const Text = ({children}) => <p className="card-text">{children}</p>
 
 export default Text

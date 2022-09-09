@@ -1,5 +1,3 @@
-function Body (props) {
-    return <div className="card-body">{props.children}</div>
-}
+const Body = ({children}) => <div className="card-body">{children}</div>
 
 export default Body
